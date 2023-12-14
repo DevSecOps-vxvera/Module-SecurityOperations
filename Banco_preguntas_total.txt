@@ -1,0 +1,308 @@
+¿Cuál de las siguientes es una vulnerabilidad común en la gestión de sesiones web según el OWASP Top Ten?
+A. inyección de sql
+B. cross-site scripting (xss)
+C. manejo incorrecto de sesiones
+D. falsificación de solicitud entre sitios (csrf)
+ANSWER: C
+
+¿Qué vulnerabilidad implica la posibilidad de ejecutar código malicioso en el navegador del usuario?
+A. inyección de lado del servidor
+B. cross-site scripting (xss)
+C. inyección de sql
+D. calidad de codigo html
+ANSWER: B
+
+¿Cuál es una práctica recomendada para prevenir la inyección de SQL?
+A. validar y escapar datos antes de ejecutar consultas sql
+B. utilizar contraseñas fuertes
+C. desactivar la autenticación multifactor
+D. usar conexiones no seguras
+ANSWER: A
+
+¿Qué amenaza implica el uso de componentes con vulnerabilidades conocidas?
+A. exposición de datos sensibles
+B. ataques de fuerza bruta
+C. uso indebido de funciones criptográficas
+D. uso de componentes de vulnerables
+ANSWER: D
+
+¿Cuál de las siguientes es una forma de mitigar la vulnerabilidad de exposición de datos sensibles?
+A. implementar una red de área local (lan)
+B. encriptar datos confidenciales en reposo y en tránsito
+C. utilizar contraseñas débiles
+D. deshabilitar cortafuegos
+ANSWER: B
+
+¿Qué es la autenticación multifactor y por qué es importante para la seguridad?
+A. utiliza múltiples algoritmos de cifrado para proteger datos
+B. requiere múltiples formas de autenticación para verificar la identidad
+C. usa firewalls de múltiples capas para proteger contra amenazas externas
+D. es una técnica de ofuscación de código fuente
+ANSWER: B
+
+¿Cuál de las siguientes es una medida efectiva para prevenir ataques de denegación de servicio (DoS)?
+A. Incrementar el ancho de banda de red
+B. Implementar cortafuegos
+C. Utilizar servicios de terceros
+D. Configurar límites de conexión y ancho de banda
+ANSWER: D
+
+¿Cuál es el propósito de la validación de entrada en el desarrollo seguro?
+A. Proteger contra ataques de fuerza bruta
+B. Garantizar que los datos ingresados cumplan con ciertos criterios
+C. Evitar el uso de componentes externos
+D. Desactivar la autenticación multifactor
+ANSWER: B
+
+¿Qué amenaza se aborda al implementar el control de acceso adecuado en una aplicación web?
+A. Cross-site scripting (xss)
+B. Inyección de sql
+C. Falsificación de solicitud entre sitios (csrf)
+D. Acceso no autorizado a recursos protegidos
+ANSWER: D
+
+¿Cuál de las siguientes es una buena práctica para proteger contra ataques de fuerza bruta?
+A. Utilizar contraseñas débiles
+B. Implementar bloqueo de cuenta después de varios intentos fallidos
+C. Desactivar la autenticación multifactor
+D. Permitir accesos anónimos
+ANSWER: B
+
+¿Qué es la "Falsificación de solicitud entre sitios (CSRF)" y cómo se puede prevenir?
+A. Ataque que explota la confianza del usuario en una aplicación específica; se puede prevenir mediante tokens anti-CSRF
+B. Inyección de código malicioso en el navegador del usuario; se puede prevenir mediante validación de entrada
+C. Ataque que manipula las sesiones web; se puede prevenir mediante cortafuegos
+D. Uso de componentes con vulnerabilidades conocidas; se puede prevenir mediante actualizaciones regulares
+ANSWER: A
+
+¿Cuál es el propósito de la "validación de salida" en el contexto de la seguridad web?
+A. Verificar la autenticación del usuario
+B. Validar la entrada del usuario antes de procesarla
+C. Codificar datos antes de presentarlos al usuariO
+D. Desactivar la autenticación multifactor
+ANSWER: C
+
+¿Qué tipo de vulnerabilidad se puede explotar mediante la manipulación de las sesiones web?
+A. Cross-site scripting (xss)
+B. Falsificación de solicitud entre sitios (csrf)
+C. Manejo incorrecto de sesiones
+D. Inyección de sql
+ANSWER: C
+
+¿Qué práctica de seguridad web implica minimizar la superficie de ataque al deshabilitar servicios y funciones innecesarios?
+A. Validación de entrada
+B. Principio de privilegio mínimo
+C. Control de acceso adecuado
+D. Escaneo de seguridad
+ANSWER: B
+
+¿Qué es el "secuestro de sesión" y cómo se puede prevenir?
+A. Manipulación de la sesión de usuario; se puede prevenir mediante la implementación de tokens de sesión seguros
+B. Ataque que explota la confianza del usuario; se puede prevenir mediante cortafuegos
+C. Exposición de datos sensibles; se puede prevenir mediante cifrado de datos
+D. Uso de componentes con vulnerabilidades conocidas; se puede prevenir mediante actualizaciones regulares
+ANSWER: A
+
+¿Cuál es el propósito de la "gestión de contraseñas" en el contexto de la seguridad web?
+A. Utilizar contraseñas débiles para facilitar el acceso
+B. Almacenar contraseñas en texto plano
+C. Proteger las contraseñas mediante el uso de algoritmos de hash seguros
+D. Desactivar la autenticación multifactor
+ANSWER: C
+
+¿Cómo se puede prevenir la exposición de datos sensibles en una aplicación web?
+A. Desactivar el registro de eventos
+B. Cifrar datos confidenciales en tránsito
+C. Utilizar contraseñas débiles
+D. Permitir accesos anónimos
+ANSWER: B
+
+¿Qué tipo de ataque implica engañar a un usuario para que revele información confidencial?
+A. INGENIERÍA SOCIAL
+B. Ataque de denegación de servicio (DoS)
+C. Cross-Site Scripting (XSS)
+D. Inyección de SQL
+ANSWER: A
+
+¿Cuál es el propósito de la "verificación de seguridad del código" en el desarrollo seguro?
+A. Validar la entrada del usuario
+B. Detectar y corregir vulnerabilidades en el código fuente
+C. Proteger contra ataques de fuerza bruta
+D. Desactivar la autenticación multifactor
+ANSWER: B
+
+¿Por qué es importante implementar la "segregación de funciones" en el contexto de la seguridad web?
+A. Facilita la administración de usuarios
+B. Minimiza el riesgo de abuso de privilegios
+C. Desactiva la autenticación multifactor
+D. Permite accesos anónimos
+ANSWER: B
+
+¿Qué práctica de seguridad web implica garantizar que los usuarios tengan acceso solo a los recursos necesarios para sus funciones?
+A. Escaneo de seguridad
+B. Control de acceso adecuado
+C. Validación de entrada
+D. Principio de privilegio mínimo
+ANSWER: D
+
+¿Qué es la "falsificación de referencias directas" y cómo se puede prevenir?
+A. Ataque que explota la confianza del usuario; se puede prevenir mediante la implementación de tokens de sesión seguros
+B. Inyección de código malicioso en el navegador del usuario; se puede prevenir mediante cortafuegos
+C. Acceso no autorizado a recursos protegidos; se puede prevenir mediante la verificación de seguridad del código
+D. Manipulación de referencias a recursos protegidos; se puede prevenir mediante la validación de entradas y acceso a recursos del servidor
+ANSWER: D
+
+¿Cuál es el propósito de la "criptografía fuerte" en el desarrollo seguro?
+A. Desactivar la autenticación multifactor
+B. Proteger datos confidenciales mediante algoritmos de cifrado robustos
+C. Utilizar contraseñas débiles para facilitar el acceso
+D. Permitir accesos anónimos
+ANSWER: B
+
+¿Cómo se puede prevenir la exposición de información confidencial en el manejo de errores?
+A. Utilizar mensajes de error detallados
+B. Desactivar la autenticación multifactor
+C. Minimizar la información revelada en mensajes de error
+D. Permitir accesos anónimos
+ANSWER: C
+
+¿Qué es una imagen en Docker?
+A. Un contenedor en ejecución
+B. Un paquete que incluye una aplicación y sus dependencias
+C. Una configuración de red
+D. Un documento de texto
+ANSWER: B
+
+¿Cómo se lista los contenedores en ejecución en Docker?
+A. docker list
+B. docker show
+C. docker ps
+D. docker status
+ANSWER: C
+
+¿Qué comando se utiliza para construir una imagen desde un Dockerfile?
+A. docker build
+B. docker create
+C. docker start
+D. docker construct
+ANSWER: A
+
+¿Cuál es el propósito principal de los contenedores en Docker?
+A. Virtualizar hardware
+B. Aislar y ejecutar aplicaciones
+C. Crear máquinas virtuales
+D. Desarrollar sitios web
+ANSWER: B
+
+¿Qué significa DevOps?
+A. Development Operations
+B. Developer Options
+C. Development and Operations
+D. Developer Operations
+ANSWER: C
+
+¿Cuál es el objetivo principal de DevOps?
+A. Acelerar el desarrollo y liberacion de software
+B. Reducir la colaboración entre equipos
+C. Separar el desarrollo y las operaciones
+D. Limitar la automatización
+ANSWER: A
+
+¿Qué es la integración continua en DevOps?
+A. Desarrollar sin control
+B. Integrar código automáticamente y con frecuencia
+C. No integrar el código hasta el final del desarrollo
+D. Realizar integración manualmente al final del proyecto
+ANSWER: B
+
+¿Qué es la implementación continua en el contexto de DevOps?
+A. Implementar cambios manualmente en producción
+B. Implementar cambios automáticamente en producción
+C. Ignorar la implementación en producción
+D. Implementar solo en ambientes de prueba
+ANSWER: B
+
+¿Qué es un "pipeline" en DevOps?
+A. Un tubo de ensayo para probar aplicaciones
+B. Una tubería de desarrollo y operaciones
+C. Un proceso automatizado que mueve el código desde la etapa de desarrollo hasta producción
+D. Una herramienta de monitoreo de rendimiento
+ANSWER: C
+
+
+¿Por qué es importante la monitorización en DevOps?
+A. Para ralentizar el rendimiento del sistema
+B. Para ignorar los problemas en producción
+C. Para detectar y resolver problemas de manera proactiva
+D. Para complicar el proceso de desarrollo
+ANSWER: C
+
+¿Qué es la infraestructura como código (IaC) en DevOps?
+A. Escribir código sin propósito claro
+B. Gestionar la infraestructura de manera manual
+C. Definir y gestionar la infraestructura mediante código
+D. Ignorar la infraestructura en el desarrollo
+ANSWER: C
+
+¿Cuál es el propósito de la automatización en DevOps?
+A. Aumentar la complejidad del proceso
+B. Reducir la eficiencia del equipo
+C. Mejorar la consistencia y eficiencia en el desarrollo y operaciones
+D. Ignorar la necesidad de cambios rápidos
+ANSWER: C
+
+¿Qué es DevSecOps?
+A. Una herramienta de desarrollo
+B. Una metodología para integrar la seguridad en DevOps
+C. Un sistema operativo seguro
+D. Ignorar la seguridad en el desarrollo
+ANSWER: B
+
+¿Cuál es el propósito de las pruebas de seguridad en el ciclo de vida de desarrollo?
+A. Ralentizar el desarrollo
+B. Identificar y mitigar posibles vulnerabilidades
+C. Ignorar la seguridad hasta la etapa de producción
+D. Realizar pruebas solo en entornos de prueba
+ANSWER: B
+
+¿Qué es un análisis de vulnerabilidades en el contexto de DevOps?
+A. Una técnica para aumentar la vulnerabilidad del sistema
+B. Un proceso para identificar y evaluar las debilidades del sistema
+C. Ignorar las vulnerabilidades en el desarrollo
+D. Realizar análisis solo en entornos de producción
+ANSWER: B
+
+¿Qué comando se utiliza para clonar un repositorio Git desde un repositorio remoto a tu máquina local?
+A. git push
+B. git clone
+B. git pull
+B. git commit
+ANSWER: B
+
+¿Cuál es el propósito del comando "git add" en Git?
+A. Crear un nuevo repositorio
+B. Guardar los cambios en el repositorio local
+C. Preparar cambios para ser confirmados en el área de ensayo (staging)
+D. Deshacer los cambios locales
+ANSWER: C
+
+¿Cómo se accede una rama (branch) en Git?
+A. git new-branch <nombre_rama>
+B. git branch create <nombre_rama>
+C. git branch <nombre_rama>
+D. git checkout <nombre_rama>
+ANSWER: D
+
+¿Cuál es la función del comando "git pull" en Git?
+A. Subir cambios al repositorio remoto
+B. Traer cambios desde el repositorio remoto
+C. Fusionar ramas en Git
+D. Crear una nueva rama
+ANSWER: B
+
+¿Qué comando se utiliza para ver el historial de confirmaciones (commits) en Git?
+A. git log
+B. git status
+C. git show
+D. git history
+ANSWER: A
